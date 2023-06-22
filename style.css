@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #171717d4;
+}
+h1{
+    color: #4ECCA3;
+    margin: 30px;
+}
+.container{
+    text-align: center;
+    margin: auto;
+    height: 70vh;
+    font-size: 8vmin;
+    font-family: Lobster, cursive;
+}
+.dice{
+    display: inline-block;
+    color: #4ECCA3;
+    font-size: 4vmin;
+}
+.content{
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+    font-size: 2vmin;
+}
+@media(max-width:700px){
+    img{
+        margin-top: 30px;
+        width: 100px;
+        height: 100px;
+    }
+}
